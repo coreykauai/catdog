@@ -1,6 +1,4 @@
-import { students } from "../../data";
-
-export default function Students() {
+export default function Students({ students }) {
   return (
     <div className="usGuys">
       <h1 className="title">Students</h1>

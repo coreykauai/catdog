@@ -1,0 +1,20 @@
+.dogos {
+  color: rgb(89, 89, 193);
+}
+
+.dog-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+}
+
+.dog-card h2 {
+  margin: 0;
+  color: #333;
+}
+
+.dog-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}

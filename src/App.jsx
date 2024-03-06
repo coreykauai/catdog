@@ -1,15 +1,21 @@
 import { useState } from "react";
 import "./App.css";
-import Students from "./assets/components/Students";
-import Dogs from "./assets/components/Dogs";
-import Cats from "./assets/components/Cats";
+import "./assets/cats/cat.css";
+import "./assets/dogs/dog.css";
+import { Routes, Route } from "react-router";
+import { cats, students, dogs } from "./data";
+import Students from "./assets/studente/Students";
+import DogPage from "./assets/dogs/DogPage";
+import CatPage from "./assets/cats/CatPage";
 
 function App() {
   return (
     <div className="bodie">
-      <Students />
-      <Dogs />
-      <Cats />
+      <Routes>
+        <Route path="/" element={<Students students={students} />} />
+        <Route path="/dogs" element={<DogPage dogs={dogs} />} />
+        <Route path="/cats" element={<CatPage cats={cats} />} />
+      </Routes>
     </div>
   );
 }

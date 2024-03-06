@@ -1,0 +1,20 @@
+.catss {
+  color: salmon;
+}
+
+.cat-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+}
+
+.cat-card h2 {
+  margin: 0;
+  color: #333;
+}
+
+.cat-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
